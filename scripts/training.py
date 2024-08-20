@@ -4,7 +4,7 @@ from transformers import Trainer, TrainingArguments
 from scripts.model_setup import load_model_and_tokenizer
 from datasets import load_from_disk
 
-def train_model(model, tokenizer, tokenized_data_path, output_dir="./llama-finetuned"):
+def train_model(model, tokenizer, tokenized_data_path, output_dir="./models/llama-finetuned"):
     tokenized_data = load_from_disk(tokenized_data_path)
     training_args = TrainingArguments(
         output_dir=output_dir,
