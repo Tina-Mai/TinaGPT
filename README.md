@@ -1,3 +1,3 @@
 # TinaGPT
 
-trained on 100,000 words of old writing to write in my style
+trained on approximately 10,000 tokens from old writing to mimic my writing style. will be deployed at https://tinamai.xyz.gpt
