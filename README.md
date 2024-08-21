@@ -1,6 +1,6 @@
 # TinaGPT
 
-trained on approximately 10,000 tokens from old writing to mimic my writing style. will be deployed at https://tinamai.xyz/gpt
+finetuning a llama3 8b base model on approximately 10,000 tokens from old writing to mimic my writing style.
 
 start by running:
 
