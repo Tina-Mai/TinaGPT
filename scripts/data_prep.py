@@ -13,8 +13,7 @@ def load_text_data(data_folder):
                 texts.append(file.read())
     return Dataset.from_dict({"text": texts})
 
-
-def tokenize_data(dataset, tokenizer, max_length=512):
+def tokenize_data(dataset, tokenizer, max_length=256):
     def tokenize_function(examples):
         return tokenizer(examples["text"], truncation=True, padding="max_length", max_length=max_length)
 
